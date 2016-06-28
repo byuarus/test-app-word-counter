@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		0494E48C1D219CA00041B526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E48B1D219CA00041B526 /* main.m */; };
 		0494E48F1D219CA00041B526 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E48E1D219CA00041B526 /* AppDelegate.m */; };
-		0494E4921D219CA00041B526 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E4911D219CA00041B526 /* ViewController.m */; };
 		0494E4951D219CA00041B526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0494E4931D219CA00041B526 /* Main.storyboard */; };
 		0494E4971D219CA00041B526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494E4961D219CA00041B526 /* Assets.xcassets */; };
 		0494E49A1D219CA00041B526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0494E4981D219CA00041B526 /* LaunchScreen.storyboard */; };
+		0494E4A31D21A0060041B526 /* LIVTextFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E4A21D21A0060041B526 /* LIVTextFile.m */; };
+		0494E4A71D21A9A90041B526 /* LIVWordSetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E4A61D21A9A90041B526 /* LIVWordSetTableViewController.m */; };
+		0494E4AB1D21AD4F0041B526 /* LITWordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494E4AA1D21AD4F0041B526 /* LITWordCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		0494E48B1D219CA00041B526 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0494E48D1D219CA00041B526 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0494E48E1D219CA00041B526 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0494E4901D219CA00041B526 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0494E4911D219CA00041B526 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0494E4941D219CA00041B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0494E4961D219CA00041B526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0494E4991D219CA00041B526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0494E49B1D219CA00041B526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0494E4A11D21A0060041B526 /* LIVTextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIVTextFile.h; path = Models/LIVTextFile.h; sourceTree = "<group>"; };
+		0494E4A21D21A0060041B526 /* LIVTextFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIVTextFile.m; path = Models/LIVTextFile.m; sourceTree = "<group>"; };
+		0494E4A51D21A9A90041B526 /* LIVWordSetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIVWordSetTableViewController.h; path = Controllers/LIVWordSetTableViewController.h; sourceTree = "<group>"; };
+		0494E4A61D21A9A90041B526 /* LIVWordSetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIVWordSetTableViewController.m; path = Controllers/LIVWordSetTableViewController.m; sourceTree = "<group>"; };
+		0494E4A91D21AD4F0041B526 /* LITWordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LITWordCell.h; path = Views/LITWordCell.h; sourceTree = "<group>"; };
+		0494E4AA1D21AD4F0041B526 /* LITWordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LITWordCell.m; path = Views/LITWordCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +64,12 @@
 		0494E4891D219CA00041B526 /* TestAppLivit */ = {
 			isa = PBXGroup;
 			children = (
-				0494E48D1D219CA00041B526 /* AppDelegate.h */,
-				0494E48E1D219CA00041B526 /* AppDelegate.m */,
-				0494E4901D219CA00041B526 /* ViewController.h */,
-				0494E4911D219CA00041B526 /* ViewController.m */,
-				0494E4931D219CA00041B526 /* Main.storyboard */,
-				0494E4961D219CA00041B526 /* Assets.xcassets */,
-				0494E4981D219CA00041B526 /* LaunchScreen.storyboard */,
-				0494E49B1D219CA00041B526 /* Info.plist */,
+				0494E4AD1D21C4190041B526 /* AppDelegate */,
+				0494E4A41D21A00C0041B526 /* Models */,
+				0494E4AE1D21C42D0041B526 /* Storyboards */,
+				0494E4AC1D21AD530041B526 /* Views */,
 				0494E48A1D219CA00041B526 /* Supporting Files */,
+				0494E4A81D21A9AE0041B526 /* Controllers */,
 			);
 			path = TestAppLivit;
 			sourceTree = "<group>";
@@ -74,9 +77,56 @@
 		0494E48A1D219CA00041B526 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0494E49B1D219CA00041B526 /* Info.plist */,
+				0494E4961D219CA00041B526 /* Assets.xcassets */,
 				0494E48B1D219CA00041B526 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0494E4A41D21A00C0041B526 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0494E4A11D21A0060041B526 /* LIVTextFile.h */,
+				0494E4A21D21A0060041B526 /* LIVTextFile.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0494E4A81D21A9AE0041B526 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0494E4A51D21A9A90041B526 /* LIVWordSetTableViewController.h */,
+				0494E4A61D21A9A90041B526 /* LIVWordSetTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0494E4AC1D21AD530041B526 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0494E4A91D21AD4F0041B526 /* LITWordCell.h */,
+				0494E4AA1D21AD4F0041B526 /* LITWordCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0494E4AD1D21C4190041B526 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0494E48D1D219CA00041B526 /* AppDelegate.h */,
+				0494E48E1D219CA00041B526 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0494E4AE1D21C42D0041B526 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0494E4981D219CA00041B526 /* LaunchScreen.storyboard */,
+				0494E4931D219CA00041B526 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0494E4921D219CA00041B526 /* ViewController.m in Sources */,
+				0494E4A71D21A9A90041B526 /* LIVWordSetTableViewController.m in Sources */,
+				0494E4A31D21A0060041B526 /* LIVTextFile.m in Sources */,
+				0494E4AB1D21AD4F0041B526 /* LITWordCell.m in Sources */,
 				0494E48F1D219CA00041B526 /* AppDelegate.m in Sources */,
 				0494E48C1D219CA00041B526 /* main.m in Sources */,
 			);
