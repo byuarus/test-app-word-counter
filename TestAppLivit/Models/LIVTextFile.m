@@ -34,6 +34,14 @@
     NSURLSession *session = [NSURLSession sharedSession];
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLSessionTask *task = [session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
+        if ([httpResponse statusCode] == 404) {
+            //No file found with Url
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [[NSNotificationCenter defaultCenter] postNotificationName:@"noFileByUrl" object:nil userInfo:@{@"url":urlString}];
+            });
+            return;
+        }
         if (data) {
             self.loadedText = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
             [self countOccurrences];

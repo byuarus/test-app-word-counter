@@ -65,11 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				0494E4AD1D21C4190041B526 /* AppDelegate */,
-				0494E4A41D21A00C0041B526 /* Models */,
+				0494E4A41D21A00C0041B526 /* Model */,
 				0494E4AE1D21C42D0041B526 /* Storyboards */,
-				0494E4AC1D21AD530041B526 /* Views */,
+				0494E4AC1D21AD530041B526 /* View */,
 				0494E48A1D219CA00041B526 /* Supporting Files */,
-				0494E4A81D21A9AE0041B526 /* Controllers */,
+				0494E4A81D21A9AE0041B526 /* Controller */,
 			);
 			path = TestAppLivit;
 			sourceTree = "<group>";
@@ -84,31 +84,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0494E4A41D21A00C0041B526 /* Models */ = {
+		0494E4A41D21A00C0041B526 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				0494E4A11D21A0060041B526 /* LIVTextFile.h */,
 				0494E4A21D21A0060041B526 /* LIVTextFile.m */,
 			);
-			name = Models;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		0494E4A81D21A9AE0041B526 /* Controllers */ = {
+		0494E4A81D21A9AE0041B526 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				0494E4A51D21A9A90041B526 /* LIVWordSetTableViewController.h */,
 				0494E4A61D21A9A90041B526 /* LIVWordSetTableViewController.m */,
 			);
-			name = Controllers;
+			name = Controller;
 			sourceTree = "<group>";
 		};
-		0494E4AC1D21AD530041B526 /* Views */ = {
+		0494E4AC1D21AD530041B526 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				0494E4A91D21AD4F0041B526 /* LITWordCell.h */,
 				0494E4AA1D21AD4F0041B526 /* LITWordCell.m */,
 			);
-			name = Views;
+			name = View;
 			sourceTree = "<group>";
 		};
 		0494E4AD1D21C4190041B526 /* AppDelegate */ = {

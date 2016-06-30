@@ -12,6 +12,6 @@
 
 @property (nonatomic, strong) IBOutlet UILabel *word;
 @property (nonatomic, strong) IBOutlet UILabel *occurrences;
-@property (nonatomic, strong) IBOutlet UIActivityIndicatorView *spinner;
+@property (nonatomic, strong) IBOutlet UILabel *status;
 
 @end
